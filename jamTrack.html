@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jam Track</title>
+
+    <style>
+        body {
+
+            background-color: gray;
+        }
+    </style>
+</head>
+<h1>Jam Track</h1>
+
+<select name="" id="tonalidade">
+
+    <option value="1" id="c">C</option>
+    <option value="2" id="cs">D</option>
+    <option value="3" id="d">E</option>
+    <option value="4" id="ds">F</option>
+    <option value="5" id="e">G</option>
+    <option value="6" id="f">A</option>
+    <option value="7" id="fs">B</option>
+
+
+
+</select>
+
+
+<select name="" id="modo">
+
+    <option value="1" id="jonio">Jônio</option>
+    <option value="2" id="dorico">Dórico</option>
+    <option value="3" id="frigio">Frígio</option>
+    <option value="4" id="lidio">Lídio</option>
+    <option value="5" id="mixolidio">Mixolídio</option>
+    <option value="6" id="eolio">Eólio</option>
+    <option value="7" id="locrio">Lócrio</option>
+
+</select>
+
+<input type="button" value="Buscar" onclick="buscar()">
+
+<br><br>
+
+<iframe id="link" width="300" height="300" src="https://www.youtube.com/embed/24qcrU6PtJQ" frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br><br><br>
+
+<div id="creditos">Powered By Leo Porto</div>
+
+
+<body>
+    <script>
+
+
+
+        function buscar() {
+
+            var link = document.getElementById("link")
+            var tonalidade = document.getElementById("tonalidade")
+            var modo = document.getElementById("modo")
+
+            if (tonalidade.value == 1 && modo.value == 1) {
+
+                link.src = "https://www.youtube.com/embed/24qcrU6PtJQ"
+
+
+            } else if (tonalidade.value == 1 && modo.value == 2) {
+
+                link.src = "https://www.youtube.com/embed/jcVFJjLLIOU"
+
+            } else if (tonalidade.value == 1 && modo.value == 3) {
+
+                link.src = "https://www.youtube.com/embed/4U0Um_TpzEI"
+
+            } else if (tonalidade.value == 1 && modo.value == 4) {
+
+                link.src = "https://www.youtube.com/embed/O99NUNlTIAM"
+
+            } else if (tonalidade.value == 1 && modo.value == 5) {
+
+                link.src = "https://www.youtube.com/embed/vkdCG_HhYHo"
+
+            } else if (tonalidade.value == 1 && modo.value == 6) {
+
+                link.src = "https://www.youtube.com/embed/jDOaeWdOaPE"
+
+            } else if (tonalidade.value == 1 && modo.value == 7) {
+
+                link.src = "https://www.youtube.com/embed/Mv6VCVmr2kk"
+
+            } else if (tonalidade.value == 2 && modo.value == 1) {
+
+                link.src = "https://www.youtube.com/embed/2cL__K9GlyI"
+
+            } else if (tonalidade.value == 2 && modo.value == 2) {
+
+                link.src = "https://www.youtube.com/embed/w6GsOQnoh20"
+
+            } else if (tonalidade.value == 2 && modo.value == 3) {
+
+                link.src = "https://www.youtube.com/embed/SthGOTRPl6A"
+
+            } else if (tonalidade.value == 2 && modo.value == 4) {
+
+                link.src = "https://www.youtube.com/embed/ocgzKTVABb8"
+
+            } else if (tonalidade.value == 2 && modo.value == 5) {
+
+                link.src = "https://www.youtube.com/embed/AZ38ha6KnRM"
+
+            } else if (tonalidade.value == 2 && modo.value == 6) {
+
+                link.src = "https://www.youtube.com/embed/v1F3dXdc8Vk"
+
+            } else if (tonalidade.value == 2 && modo.value == 7) {
+
+                link.src = "https://www.youtube.com/embed/6rPeQwS1q8Q"
+
+            } else if (tonalidade.value == 3 && modo.value == 1) {
+
+                link.src = "https://www.youtube.com/embed/970B4ggwDo0"
+
+            } else if (tonalidade.value == 3 && modo.value == 2) {
+
+                link.src = "https://www.youtube.com/embed/rFPze6kW1Y8"
+
+            } else if (tonalidade.value == 3 && modo.value == 3) {
+
+                link.src = "https://www.youtube.com/embed/i_YV8uxzFac"
+
+            } else if (tonalidade.value == 3 && modo.value == 4) {
+
+                link.src = "https://www.youtube.com/embed/5FZ7Lq1Grag"
+
+            } else if (tonalidade.value == 3 && modo.value == 5) {
+
+                link.src = "https://www.youtube.com/embed/j_N-aJTWfYk"
+
+            } else if (tonalidade.value == 3 && modo.value == 6) {
+
+                link.src = "https://www.youtube.com/embed/D7iSDpyu7Cs"
+
+            } else if (tonalidade.value == 3 && modo.value == 7) {
+
+                link.src = "https://www.youtube.com/embed/stNfBx-AAsg"
+
+            } else if (tonalidade.value == 4 && modo.value == 1) {
+
+                link.src = "https://www.youtube.com/embed/ART63wsZaYk"
+
+            } else if (tonalidade.value == 4 && modo.value == 2) {
+
+                link.src = "https://www.youtube.com/embed/NxEErh6dazQ"
+
+            } else if (tonalidade.value == 4 && modo.value == 3) {
+
+                link.src = "https://www.youtube.com/embed/OgEQZaDd8_A"
+
+            } else if (tonalidade.value == 4 && modo.value == 4) {
+
+                link.src = "https://www.youtube.com/embed/tUC5W7ocjPE"
+
+            } else if (tonalidade.value == 4 && modo.value == 5) {
+
+                link.src = "https://www.youtube.com/embed/joGVqntjvks"
+
+            } else if (tonalidade.value == 4 && modo.value == 6) {
+
+                link.src = "https://www.youtube.com/embed/IQ_pQiaR6c4"
+
+            } else if (tonalidade.value == 4 && modo.value == 7) {
+
+                link.src = "https://www.youtube.com/embed/56YFP7jR9pY"
+
+            } else if (tonalidade.value == 5 && modo.value == 1) {
+
+                link.src = "https://www.youtube.com/embed/NFC25ldiCiQ"
+
+            } else if (tonalidade.value == 5 && modo.value == 2) {
+
+                link.src = "https://www.youtube.com/embed/L2UcjgX2rbY"
+
+            } else if (tonalidade.value == 5 && modo.value == 3) {
+
+                link.src = "https://www.youtube.com/embed/memgJJnBO4Q"
+
+            } else if (tonalidade.value == 5 && modo.value == 4) {
+
+                link.src = "https://www.youtube.com/embed/-gz5p9NbOGg"
+
+            } else if (tonalidade.value == 5 && modo.value == 5) {
+
+                link.src = "https://www.youtube.com/embed/_k5XpIXq918"
+
+            } else if (tonalidade.value == 5 && modo.value == 6) {
+
+                link.src = "https://www.youtube.com/embed/EgsLcDEXrLg"
+
+            } else if (tonalidade.value == 5 && modo.value == 7) {
+
+                link.src = "https://www.youtube.com/embed/DUn0Jfp49YY"
+
+            } else if (tonalidade.value == 6 && modo.value == 1) {
+
+                link.src ="https://www.youtube.com/embed/Rx0WH0kCuEk"
+
+            } else if (tonalidade.value == 6 && modo.value == 2) {
+
+                link.src ="https://www.youtube.com/embed/MrxJ3CUSXqw"
+
+            } else if (tonalidade.value == 6 && modo.value == 3) {
+
+                link.src = ""
+
+            } else if (tonalidade.value == 6 && modo.value == 4) {
+
+                link.src = ""
+
+            } else if (tonalidade.value == 6 && modo.value == 5) {
+
+                link.src = ""
+
+            } else if (tonalidade.value == 6 && modo.value == 6) {
+
+                link.src = ""
+
+            } else if (tonalidade.value == 6 && modo.value == 7) {
+
+                link.src = ""
+
+            }
+
+
+        }
+
+
+
+    </script>
+</body>
+
+</html>
