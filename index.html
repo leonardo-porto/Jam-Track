@@ -8,8 +8,7 @@
     <title>Jam Track</title>
 
     <style>
-        #creditos
-            {
+        #creditos {
 
 
             font-family: Arial, Helvetica, sans-serif;
@@ -17,8 +16,7 @@
             color: white;
         }
 
-        h1
-            {
+        h1 {
 
 
             font-family: Arial, Helvetica, sans-serif;
@@ -55,8 +53,21 @@
         input,
         select {
 
-            height: 100px;
-            width: 100px;
+            border: 1px solid #25692A;
+            border-radius: 4px;
+            display: inline-block;
+            cursor: pointer;
+            font-family: Verdana;
+            font-weight: bold;
+            font-size: 13px;
+            padding: 6px 10px;
+            text-decoration: none;
+            border-color: #46a7f5;
+            background: linear-gradient(to bottom, #86c6f8 5%, #46a7f5 100%);
+            box-shadow: inset 0px 1px 0px 0px #d7ecfd;
+            color: black;
+            text-shadow: 0px 1px 0px #528009;
+
 
 
 
@@ -89,6 +100,8 @@
     <option value="5" id="mixolidio">Mixolídio</option>
     <option value="6" id="eolio">Eólio</option>
     <option value="7" id="locrio">Lócrio</option>
+    <option value="8" id="bluesMaior">Blues Maior</option>
+    <option value="9" id="bluesMenor">Blues Menor</option>
 
 </select>
 
@@ -367,6 +380,76 @@
 
                 link.src = "https://www.youtube.com/embed/tVW2rT7vmEI"
                 shape.src = "img/blocrio.jpg"
+
+            } else if (tonalidade.value == 1 && modo.value == 8) {
+
+                link.src = "https://www.youtube.com/embed/V6aZZFnZUVk"
+                shape.src = "img/cblues.png"
+
+            } else if (tonalidade.value == 2 && modo.value == 8) {
+
+                link.src = "https://www.youtube.com/embed/QUHMO_u_UgM"
+                shape.src = "img/dblues.png"
+
+            } else if (tonalidade.value == 3 && modo.value == 8) {
+
+                link.src = "https://www.youtube.com/embed/36X3wecT2z8"
+                shape.src = "img/eblues.png"
+
+            } else if (tonalidade.value == 4 && modo.value == 8) {
+
+                link.src = "https://www.youtube.com/embed/Bg-Ea7aCb1E"
+                shape.src = "img/fblues.png"
+
+            } else if (tonalidade.value == 5 && modo.value == 8) {
+
+                link.src = "https://www.youtube.com/embed/o5xCVtkOPVc"
+                shape.src = "img/gblues.png"
+
+            } else if (tonalidade.value == 6 && modo.value == 8) {
+
+                link.src = "https://www.youtube.com/embed/Z3euxRLOQec"
+                shape.src = "img/ablues.png"
+
+            } else if (tonalidade.value == 7 && modo.value == 8) {
+
+                link.src = "https://www.youtube.com/embed/f4FPGn2fjmQ"
+                shape.src = "img/bblues.png"
+
+            } else if (tonalidade.value == 1 && modo.value == 9) {
+
+                link.src = "https://www.youtube.com/embed/2uo_Xmi-mdU"
+                shape.src = "img/cmblues.png"
+
+            } else if (tonalidade.value == 2 && modo.value == 9) {
+
+                link.src = "https://www.youtube.com/embed/YZoaGy8dL_0"
+                shape.src = "img/dmblues.png"
+
+            } else if (tonalidade.value == 3 && modo.value == 9) {
+
+                link.src = "https://www.youtube.com/embed/IolqIzmoC3g"
+                shape.src = "img/emblues.png"
+
+            } else if (tonalidade.value == 4 && modo.value == 9) {
+
+                link.src = "https://www.youtube.com/embed/r8O6jJiBWtA"
+                shape.src = "img/fmblues.png"
+
+            } else if (tonalidade.value == 5 && modo.value == 9) {
+
+                link.src = "https://www.youtube.com/embed/SXelLY7YQhA"
+                shape.src = "img/gmblues.png"
+
+            } else if (tonalidade.value == 6 && modo.value == 9) {
+
+                link.src = "https://www.youtube.com/embed/rvQoW5J31tA"
+                shape.src = "img/amblues.png"
+
+            } else if (tonalidade.value == 7 && modo.value == 9) {
+
+                link.src = "https://www.youtube.com/embed/XyWjysnjf7s"
+                shape.src = "img/bmblues.png"
 
             }
 
